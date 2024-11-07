@@ -11,7 +11,7 @@ const CharacterCard = ({ id, name, image }) => {
     const fetchCharacterData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/characters/${id}`
+          `https://katyaxpfarm.onrender.com/api/characters/${id}`
         );
         const character = response.data;
         setXp(character.xp); // Set XP from the database
@@ -34,7 +34,7 @@ const CharacterCard = ({ id, name, image }) => {
 
     try {
       const response = await axios.put(
-        `http://localhost:3000/api/characters/${id}`,
+        `https://katyaxpfarm.onrender.com/api/characters/${id}`,
         {
           xp: updatedXp,
           tasks: tasksWithName,
