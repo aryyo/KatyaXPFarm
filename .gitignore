@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Build directories
+dist/
+build/
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Ignore yarn files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# React-specific
+*.cache
+*.env.local
+coverage/
+
+# MongoDB-specific
+*.lock
+data/db/
+dump/
+
+# Miscellaneous
+*.swp
+*.swo
+
+# Ignore test coverage
+coverage/
+
+# Production build output
+/server/build
