@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KatyaXPFarm/static/css/main.1d1899f7.css",
+    "main.js": "/KatyaXPFarm/static/js/main.e001977f.js",
+    "index.html": "/KatyaXPFarm/index.html",
+    "main.1d1899f7.css.map": "/KatyaXPFarm/static/css/main.1d1899f7.css.map",
+    "main.e001977f.js.map": "/KatyaXPFarm/static/js/main.e001977f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d1899f7.css",
+    "static/js/main.e001977f.js"
+  ]
+}
